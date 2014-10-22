@@ -1,0 +1,53 @@
+{
+  "openPairs": "}{][)(><",
+  "closedPairs": "{}[]()<>",
+  "alphaNum": "abcdefghijklmnopqrstuv-_0123456789 ",
+  "punctuation": "!@$%^&:*.,/|;'\"+=?`~#",
+  "slashesAndQuotes": "'\"/\\\"\"''\\/",
+  "64Chars": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+  "1024Chars": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+  "emoji": "\uD83D\uDE02",
+  "diacritics": "ą ć ę ł ń ó ś ź ż č ď ě ň ř š ť ž ă î ø å æ á é í ó ú Ç Ğ İ Ö Ş Ü",
+  "mixedLatinAndArabic": "qahwah ( قهوة)",
+  "hebrew": "שָׁלוֹם עֲלֵיכֶם",
+  "mixedLatinAndJapanese": "Ramen チャーシュー chāshū",
+  "chinese": "言而无信",
+  "zalgo": "Ṫ͌ó̍ ̍͂̓̍̍̀i̊ͯ͒nͧ̍̓̃͋vok̂̓ͤ̓̂ěͬ ͆tͬ̐́̐͆h̒̏͌̓e͂ ̎̊h̽͆ͯ̄ͮi͊̂ͧͫ̇̃vͥͦ́ẻͤ-͒m̈́̀i̓ͮ͗̑͌̆̅n̓̓ͨd̊̑͛̔̚ ͨͮ̊̾rͪeͭͭ͑ͧ́͋p̈́̅̚rͧe̒̈̌s̍̽ͩ̓̇e͗n̏͊ͬͭtͨ͆ͤ̚iͪ͗̍n͐͒g̾ͦ̎ ͥ͌̽̊ͩͥ͗c̀ͬͣha̍̏̉ͪ̈̚o̊̏s̊̋̀̏̽̚.͒ͫ͛͛̎ͥ",
+  "zalgo2": "H҉̵̞̟̠̖̗̘Ȅ̐̑̒̚̕̚ IS C̒̓̔̿̿̿̕̚̚̕̚̕̚̕̚̕̚̕̚OMI҉̵̞̟̠̖̗̘NG > ͡҉҉ ̵̡̢̛̗̘̙̜̝̞̟̠͇̊̋̌̍̎̏̿̿̿̚ ҉ ҉҉̡̢̡̢̛̛̖̗̘̙̜̝̞̟̠̖̗̘̙̜̝̞̟̠̊̋̌̍̎̏̐̑̒̓̔̊̋̌̍̎̏̐̑ ͡҉҉",
+
+  "injection": {
+    "sql": [
+      "' or '1'='1' -- ",
+      "' or '1'='1' ({ ",
+      "' or '1'='1' /* ",
+      "1;DROP TABLE users"
+    ],
+    "html": [
+      "<a href=\"//www.google.com\">Teh Googles</a>",
+      "<img src=\"//upload.wikimedia.org/wikipedia/meta/b/be/Wikipedia-logo-v2_2x.png\" />",
+      "<b><i><u><strong><em>",
+      "&amp; &lt; &quot; &apos;",
+      "%21	%23	%24	%26	%27	%28	%29	%2A	%2B	%2C	%2F	%3A	%3B	%3D	%3F	%40	%5B	%5D %0D %0A %0D%0A %20 %22 %25	%2D	%2E	%3C	%3E	%5C	%5E	%5F	%60	%7B	%7C	%7D	%7E"
+    ]
+  },
+
+  "email": [
+    "sue@thatmightbe.com",
+    "apos'trophe@thatmightbe.com",
+    "apos''''trophe@thatmightbe.com",
+    "su+san@thatmightbe.com",
+    "per.iod@thatmightbe.com",
+    "per..iods@thatmightbe.com",
+    ".period@thatmightbe.com",
+    "tom(comment)@thatmightbe.com",
+    "(comment)tom@thatmightbe.com",
+    "\"quotes\"@thatmightbe.com",
+    "\"\\\"(),:;<>@[\\]\"@thatmightbe.com",
+    "a!#$%&'*+-/=?^_`{|}~b@thatmightbe.com",
+    "local@[127.0.0.1]",
+    "jill@(comment)example.com",
+    "jill@example.com(comment)",
+    "ben@ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg.com",
+    "judy@gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg.com"
+  ]
+}
