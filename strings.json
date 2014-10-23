@@ -1,7 +1,7 @@
 {
   "openPairs": "}{][)(><",
   "closedPairs": "{}[]()<>",
-  "alphaNum": "abcdefghijklmnopqrstuv-_0123456789 ",
+  "alphaNum": "abcdefghijklmnopqrstuvwrxyz0123456789 -_",
   "punctuation": "!@$%^&:*.,/|;'\"+=?`~#",
   "slashesAndQuotes": "'\"/\\\"\"''\\/",
   "64Chars": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
@@ -27,15 +27,20 @@
       "<img src=\"//upload.wikimedia.org/wikipedia/meta/b/be/Wikipedia-logo-v2_2x.png\" />",
       "<b><i><u><strong><em>",
       "&amp; &lt; &quot; &apos;",
-      "%21	%23	%24	%26	%27	%28	%29	%2A	%2B	%2C	%2F	%3A	%3B	%3D	%3F	%40	%5B	%5D %0D %0A %0D%0A %20 %22 %25	%2D	%2E	%3C	%3E	%5C	%5E	%5F	%60	%7B	%7C	%7D	%7E"
+      " %21 %23 %24 %26 %27 %28 %29 %2A	%2B	%2C	%2F	%3A	%3B	%3D	%3F	%40	%5B	%5D %0D %0A %0D%0A %20 %22 %25 %2D %2E %3C %3E %5C %5E %5F %60 %7B %7C %7D %7E"
     ]
   },
 
   "email": [
-    "sue@thatmightbe.com",
+    "sue@thatmightbe",
+    "sue@thatmightbe.",
+    "sue@thatmightbe.c",
+    "sue@thatmightbe.co",
+    "sue @ thatmightbe.com",
     "apos'trophe@thatmightbe.com",
     "apos''''trophe@thatmightbe.com",
     "su+san@thatmightbe.com",
+    "su+s+an@thatmightbe.com",
     "per.iod@thatmightbe.com",
     "per..iods@thatmightbe.com",
     ".period@thatmightbe.com",
@@ -47,7 +52,12 @@
     "local@[127.0.0.1]",
     "jill@(comment)example.com",
     "jill@example.com(comment)",
+    "a@b.中国",
+    "a@b.co",
+    "a@b.co.uk",
+    "a@b.cancerresearch",
     "ben@ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg.com",
-    "judy@gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg.com"
+    "judy@gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg.com",
+    "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.com"
   ]
 }
