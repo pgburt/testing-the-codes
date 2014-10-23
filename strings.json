@@ -1,4 +1,6 @@
 {
+  "emptySet": "",
+  "emptySet2": " ",
   "openPairs": "}{][)(><",
   "closedPairs": "{}[]()<>",
   "alphaNum": "abcdefghijklmnopqrstuvwrxyz0123456789 -_",
