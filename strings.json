@@ -1,6 +1,9 @@
 {
   "emptySet": "",
   "emptySet2": " ",
+  "wildcard": "*",
+  "wildcard2": "?",
+  "wildcard3": ".",
   "openPairs": "}{][)(><",
   "closedPairs": "{}[]()<>",
   "alphaNum": "abcdefghijklmnopqrstuvwrxyz0123456789 -_",
@@ -30,7 +33,12 @@
       "<b><i><u><strong><em>",
       "&amp; &lt; &quot; &apos;",
       " %21 %23 %24 %26 %27 %28 %29 %2A	%2B	%2C	%2F	%3A	%3B	%3D	%3F	%40	%5B	%5D %0D %0A %0D%0A %20 %22 %25 %2D %2E %3C %3E %5C %5E %5F %60 %7B %7C %7D %7E"
-    ]
+    ],
+    "javascript": [
+      ";alert('Well this is awkward.');",
+      "<script type='text/javascript'>alert('yay puppies');</script>"
+    ],
+    "http": "?q=foobar%0d%0aContent-\nLength:%200%0d%0a%0d%0aHTTP/1.1%20200%20OK%0d%0aContent-\nType:%20text/html%0d%0aContent-Length:%2019%0d%0a%0d%0a<html>Shazam</html>"
   },
 
   "email": [
